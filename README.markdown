@@ -7,7 +7,13 @@ You're not limited to a restricted color palate.
 You can specify, in your source code, the exact RGB values you'd like to use.  
 You can specify foreground and/or background color(s).
 
-XcodeColors is a simple plugin for Xcode 3 & 4.  
+XcodeColors is a simple plugin for Xcode 3 & 4 (and NOW 5!).
+
+Before building...  add your 'CFBundleIdentifier' to your "~/.MacOSX/environment" via the terminal..
+
+`defaults write ~/.MacOSX/environment DEVELOPER_DOMAIN -string "com.yourdomain"`
+
+You may need to logout/in for this change to reflect.  This enables a unique Budle identifier via the variable `${DEVELOPER_DOMAIN}.${PRODUCT_NAME:rfc1034Identifier}`
 
 ***
 

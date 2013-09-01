@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		19A131E8123E5A9800B2532F /* XcodeColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A131E7123E5A9800B2532F /* XcodeColors.m */; };
-		19FD4826133A59190072594E /* version.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19FD4822133A58110072594E /* version.plist */; };
+		7B7D32E917D3CBD100D1E8E9 /* XCFixin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D32E817D3CBD100D1E8E9 /* XCFixin.m */; };
+		7BCC9CA117D3CDC600C7058B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BCC9CA017D3CDC600C7058B /* Info.plist */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 		DC7131FA156B71A500F0C51A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7131F9156B71A500F0C51A /* Cocoa.framework */; };
@@ -19,19 +20,6 @@
 		DC713210156B71A600F0C51A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC71320E156B71A600F0C51A /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		19FD4825133A590C0072594E /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = Contents;
-			dstSubfolderSpec = 1;
-			files = (
-				19FD4826133A59190072594E /* version.plist in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -39,10 +27,12 @@
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		19A131E6123E5A9800B2532F /* XcodeColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeColors.h; sourceTree = "<group>"; };
 		19A131E7123E5A9800B2532F /* XcodeColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeColors.m; sourceTree = "<group>"; };
-		19FD4822133A58110072594E /* version.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = version.plist; sourceTree = "<group>"; };
 		32DBCF630370AF2F00C91783 /* XcodeColors_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeColors_Prefix.pch; sourceTree = "<group>"; };
-		8D5B49B6048680CD000E48DA /* XcodeColors.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeColors.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B7D32E717D3CBD100D1E8E9 /* XCFixin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFixin.h; sourceTree = "<group>"; };
+		7B7D32E817D3CBD100D1E8E9 /* XCFixin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFixin.m; sourceTree = "<group>"; };
+		7B82602E17061E1F002B0B48 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		7BCC9CA017D3CDC600C7058B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* XcodeColors.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeColors.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		DC7131F6156B71A500F0C51A /* TestXcodeColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestXcodeColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7131F9156B71A500F0C51A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -82,6 +72,7 @@
 		089C166AFE841209C02AAC07 /* XcodeColors */ = {
 			isa = PBXGroup;
 			children = (
+				7B82602E17061E1F002B0B48 /* README.markdown */,
 				08FB77AFFE84173DC02AAC07 /* Classes */,
 				32C88E010371C26100C91783 /* Other Sources */,
 				089C167CFE841241C02AAC07 /* Resources */,
@@ -105,8 +96,7 @@
 		089C167CFE841241C02AAC07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				19FD4822133A58110072594E /* version.plist */,
-				8D5B49B7048680CD000E48DA /* Info.plist */,
+				7BCC9CA017D3CDC600C7058B /* Info.plist */,
 				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
 			);
 			name = Resources;
@@ -115,6 +105,8 @@
 		08FB77AFFE84173DC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				7B7D32E717D3CBD100D1E8E9 /* XCFixin.h */,
+				7B7D32E817D3CBD100D1E8E9 /* XCFixin.m */,
 				19A131E6123E5A9800B2532F /* XcodeColors.h */,
 				19A131E7123E5A9800B2532F /* XcodeColors.m */,
 			);
@@ -142,7 +134,7 @@
 		19C28FB8FE9D52D311CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D5B49B6048680CD000E48DA /* XcodeColors.bundle */,
+				8D5B49B6048680CD000E48DA /* XcodeColors.xcplugin */,
 				DC7131F6156B71A500F0C51A /* TestXcodeColors.app */,
 			);
 			name = Products;
@@ -206,10 +198,8 @@
 			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "XcodeColors" */;
 			buildPhases = (
 				8D5B49AF048680CD000E48DA /* Resources */,
-				19FD4825133A590C0072594E /* CopyFiles */,
 				8D5B49B1048680CD000E48DA /* Sources */,
 				8D5B49B3048680CD000E48DA /* Frameworks */,
-				19863EE81240DD900067FA40 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -218,7 +208,7 @@
 			name = XcodeColors;
 			productInstallPath = "$(HOME)/Library/Bundles";
 			productName = XcodeColors;
-			productReference = 8D5B49B6048680CD000E48DA /* XcodeColors.bundle */;
+			productReference = 8D5B49B6048680CD000E48DA /* XcodeColors.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 		DC7131F5156B71A500F0C51A /* TestXcodeColors */ = {
@@ -273,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				7BCC9CA117D3CDC600C7058B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,28 +279,13 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		19863EE81240DD900067FA40 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "./xcb-install.pl";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		8D5B49B1048680CD000E48DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				19A131E8123E5A9800B2532F /* XcodeColors.m in Sources */,
+				7B7D32E917D3CBD100D1E8E9 /* XCFixin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,90 +336,31 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1DEB913B08733D840010E9CD /* Debug */ = {
+		7B3C589017D3C8FC00A50882 /* Xcode4 */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_GC = supported;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = XcodeColors_Prefix.pch;
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				PRODUCT_NAME = XcodeColors;
-				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Xcode4;
 		};
-		1DEB913C08733D840010E9CD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_OBJC_GC = supported;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = XcodeColors_Prefix.pch;
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				PRODUCT_NAME = XcodeColors;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		1DEB913F08733D840010E9CD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		1DEB914008733D840010E9CD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		DC713211156B71A600F0C51A /* Debug */ = {
+		7B3C589117D3C8FC00A50882 /* Xcode4 */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestXcodeColors/TestXcodeColors-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				INFOPLIST_FILE = "TestXcodeColors/TestXcodeColors-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				GCC_PREFIX_HEADER = XcodeColors_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = XcodeColors;
+				WRAPPER_EXTENSION = xcplugin;
 			};
-			name = Debug;
+			name = Xcode4;
 		};
-		DC713212156B71A600F0C51A /* Release */ = {
+		7B3C589217D3C8FC00A50882 /* Xcode4 */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -462,7 +379,53 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
-			name = Release;
+			name = Xcode4;
+		};
+		7B3C589317D3C93200A50882 /* Xcode5 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Xcode5;
+		};
+		7B3C589417D3C93200A50882 /* Xcode5 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XcodeColors_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = XcodeColors;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Xcode5;
+		};
+		7B3C589517D3C93200A50882 /* Xcode5 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestXcodeColors/TestXcodeColors-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "TestXcodeColors/TestXcodeColors-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Xcode5;
 		};
 /* End XCBuildConfiguration section */
 
@@ -470,28 +433,29 @@
 		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "XcodeColors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1DEB913B08733D840010E9CD /* Debug */,
-				1DEB913C08733D840010E9CD /* Release */,
+				7B3C589117D3C8FC00A50882 /* Xcode4 */,
+				7B3C589417D3C93200A50882 /* Xcode5 */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Xcode4;
 		};
 		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "XcodeColors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1DEB913F08733D840010E9CD /* Debug */,
-				1DEB914008733D840010E9CD /* Release */,
+				7B3C589017D3C8FC00A50882 /* Xcode4 */,
+				7B3C589317D3C93200A50882 /* Xcode5 */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Xcode4;
 		};
 		DC713213156B71A600F0C51A /* Build configuration list for PBXNativeTarget "TestXcodeColors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC713211156B71A600F0C51A /* Debug */,
-				DC713212156B71A600F0C51A /* Release */,
+				7B3C589217D3C8FC00A50882 /* Xcode4 */,
+				7B3C589517D3C93200A50882 /* Xcode5 */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Xcode4;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,14 +9,8 @@
 #import <Cocoa/Cocoa.h>
 
 @interface XcodeColors_NSTextStorage : NSTextStorage
-
 - (void)fixAttributesInRange:(NSRange)aRange;
-
 @end
 
 @interface XcodeColors : NSObject
-
-+ (void)pluginDidLoad:(id)xcodeDirectCompatibility;
-- (void)registerLaunchSystemDescriptions;
-
 @end
